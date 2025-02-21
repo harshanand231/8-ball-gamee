@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, 
+                                   initial-scale=1.0" />
+    <!-- Link to custom css -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>GFG - Magic 8 Ball</title>
+</head>
+
+<body>
+    <header>
+        <h1>GeeksforGeeks</h1>
+        <h2>Magic 8 Ball Game</h2>
+    </header>
+
+    <main class="main">
+        <div class="questionBox">
+            <h3>Enter What you have in your mind!!!</h3>
+            <input type="text" name="fortuneQuestion" 
+                id="fortuneQuestion"
+                placeholder="Enter a question here" />
+        </div>
+        <div id="ball">
+            <div id="answer">
+                <p class="answerText">8</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <table id="questionAnswerTable">
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Answer</th>
+                </tr>
+            </thead>
+            <tbody class="tableBody"></tbody>
+        </table>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
